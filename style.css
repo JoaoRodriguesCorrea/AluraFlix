@@ -1,11 +1,11 @@
 body{
-    background-color: rgba(255, 255, 255, 0.533);
-    color:aliceblue;
+    background-color: rgb(204, 246, 243);
+    color:rgb(100, 145, 185);
 font-family: "Bokor", system-ui;
 }
 
 .chamada{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(185, 231, 251);
     padding-top: 30px;
     padding-bottom: 80px;
     display: flex;
@@ -45,4 +45,13 @@ img{
 }
 h2{
     font-size: 30px;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
